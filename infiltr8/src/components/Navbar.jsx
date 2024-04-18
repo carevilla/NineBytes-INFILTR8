@@ -2,41 +2,47 @@ import React from 'react';
 
 import { useState } from 'react';
 
-import {close, logo, menu} from '../assets';
+import {close, logo, menu, infiltr8} from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
+    return (
+        <nav className="w-full flex py-6 justify-between items-center navbar">
+            <img src={infiltr8} alt="INFILTR8" className="w-[100px] h-[64px]"></img>
 
-  return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-        <img src={logo} alt="INFILTR8" className="w-[124px] h-[32px]"></img>
-
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-            {navLinks.map((nav, index) =>(
+            <ul className="
+                    list-none 
+                    sm:flex 
+                    hidden 
+                    justify-end 
+                    items-center 
+                    flex-1">
+                {navLinks.map((nav, index) =>(
                 <li
                     key={nav.id}
-                    className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
-                    } text-white`}
-                >
-                    <a href={`#${nav.id}`}>
-                        {nav.title}
-                    </a>
+                    className={`
+                        font-poppins 
+                        font-normal 
+                        cursor-pointer 
+                        text-[16px] 
+                        ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}
+                        text-white`
+                    }>
+                    <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
+            ))};
+            </ul>
 
-            
-        ))}
-        </ul>
-
-        <div className="sm:hidden flex fel-1 justify-end items-center">
-            <img 
-                src={toggle ? close : menu}
-                alt="menu"
-                className="w-[28px] h-[28px] object-contain"
-                onClick={() => setToggle((prev) => !prev)}
-            ></img>
-            <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+            <div className="sm:hidden flex fel-1 justify-end items-center">
+                <img 
+                    src={toggle ? close : menu}
+                    alt="menu"
+                    className="w-[28px] h-[28px] object-contain"
+                    onClick={() => setToggle((prev) => !prev)}
+                ></img>
+                <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
 
             <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) =>(
@@ -48,9 +54,7 @@ const Navbar = () => {
                     <a href={`#${nav.id}`}>
                         {nav.title}
                     </a>
-                </li>
-
-            
+                </li>   
         ))}
         </ul>
             </div>
