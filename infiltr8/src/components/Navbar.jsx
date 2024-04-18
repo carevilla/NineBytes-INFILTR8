@@ -17,6 +17,7 @@ const Navbar = () => {
                     sm:flex 
                     hidden 
                     justify-end 
+                    cursor-pointer
                     items-center 
                     flex-1">
                 {navLinks.map((nav, index) =>(

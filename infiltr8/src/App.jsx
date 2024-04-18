@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style';
-import { Navbar, Footer } from './components';
+import { Navbar, Footer, Hero } from './components';
 
 
 const App = () => (
@@ -13,7 +13,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        Hero
+        <Hero/>
       </div>
     </div>
 
