@@ -25,6 +25,14 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 //import infiltr8 from "./infiltr8.svg";
 import infiltr8 from "./infiltr8.png";
+import ai from "./ai.png";
+import robot1 from "./robot1.png";
+import robot2 from "./robot2.png";
+import robot3 from "./robot3.png";
+import lock from "./lock.png";
+import lock1 from "./lock1.png";
+import lock2 from "./lock2.png";
+import lock4 from "./lock4.png";
 
 export {
   airbnb,
@@ -52,5 +60,14 @@ export {
   people01,
   people02,
   people03,
+
   infiltr8,
+  ai,
+  robot1,
+  robot2,
+  robot3,
+  lock,
+  lock1,
+  lock2,
+  lock4,
 };

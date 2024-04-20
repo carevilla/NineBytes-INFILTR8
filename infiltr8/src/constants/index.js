@@ -86,6 +86,16 @@ export const stats = [
     title: "Transaction",
     value: "$230M+",
   },
+  {
+    id: "stats-3",
+    title: "Transaction",
+    value: "$230M+",
+  },
+  {
+    id: "stats-3",
+    title: "Transaction",
+    value: "$230M+",
+  },
 ];
 
 export const footerLinks = [
