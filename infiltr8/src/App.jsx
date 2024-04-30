@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style';
-import { Navbar, Footer, Hero, Stats, Business, Billing} from './components';
+import { Navbar, Footer, Hero, Stats, Business, Billing, CardDeal} from './components';
 
 
 const App = () => (
@@ -22,7 +22,7 @@ const App = () => (
         <Stats/> 
         <Business/>
         <Billing/>
-        CardDeal
+        <CardDeal/>
         Testimonials
         Clients
         CTA

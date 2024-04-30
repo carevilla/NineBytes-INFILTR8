@@ -1,4 +1,7 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, 
+  people03, facebook, instagram, 
+  linkedin, twitter, airbnb, binance, 
+  coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +26,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Import Recon File",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Small descritpion of import recon files",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Create Manage Project",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Small Description of Creating projects ",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Generate Report Scan",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Small Description of Report contents",
   },
 ];
 

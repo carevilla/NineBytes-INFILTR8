@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Stats from "./Stats";
 import Business from "./Business";
 import Billing from "./Billing";
+import CardDeal from "./CardDeal";
 
 
 /*<div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
@@ -16,5 +17,6 @@ export {
     Stats,
     Business,
     Billing,
+    CardDeal,
     Footer,
 };
