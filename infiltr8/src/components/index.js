@@ -7,6 +7,7 @@ import Billing from "./Billing";
 import CardDeal from "./CardDeal";
 import Testimonials from "./Testimonials";
 import Clients from "./Clients";
+import CTA from "./CTA";
 
 export {
     Navbar,
@@ -17,5 +18,6 @@ export {
     CardDeal,
     Testimonials,
     Clients,
+    CTA,
     Footer,
 };
