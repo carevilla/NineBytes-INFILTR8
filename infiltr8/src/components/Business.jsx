@@ -25,7 +25,7 @@ const Business = () => {
   return (
     <section id ="features" className={layout.section}>
         <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>INFILTR8 does the work, <br className="sm:block hidden"/>
+            <h2 className={styles.heading2}>INFILTR8 does the work,<br className="sm:block hidden"/>
             You'll see the results</h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 

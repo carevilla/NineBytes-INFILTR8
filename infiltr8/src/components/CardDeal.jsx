@@ -6,8 +6,8 @@ import Button from './Button';
 const CardDeal = () => (
     <section className={layout.section}>
         <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>Find a better card deal <br className="sm:block hidden"/> 
-            in few easy steps.</h2>
+            <h2 className={styles.heading2}>A Detial Report log  <br className="sm:block hidden"/> 
+            Pic of cyber Report -</h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}> 
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Sapiente, ipsam facilis cumque alias quo quas sed iste provident
